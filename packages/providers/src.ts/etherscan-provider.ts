@@ -187,6 +187,8 @@ export class EtherscanProvider extends BaseProvider{
                 return "https:/\/api-optimistic.etherscan.io";
             case "optimism-goerli":
                 return "https:/\/api-goerli-optimistic.etherscan.io";
+            case "avax":
+                return "https:/\/api.snowscan.xyz/api";
             default:
         }
 
