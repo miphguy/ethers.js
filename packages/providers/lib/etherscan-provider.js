@@ -236,6 +236,8 @@ var EtherscanProvider = /** @class */ (function (_super) {
                 return "https:/\/api-optimistic.etherscan.io";
             case "optimism-goerli":
                 return "https:/\/api-goerli-optimistic.etherscan.io";
+            case "avax":
+                return "https://api.snowscan.xyz/api";
             default:
         }
         return logger.throwArgumentError("unsupported network", "network", this.network.name);
